@@ -1,0 +1,723 @@
+*{
+    margin:0;
+    padding: 0;
+}
+html{
+    font-size:100%;
+}
+a{
+    text-decoration: none;
+}
+html{font-size:100%;}
+body{
+    font-size:1em;
+    font-family: "微软雅黑";
+}
+.response-img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+ul{
+    list-style: none;
+}
+.fd:after{
+    clear:both;
+    content:'';
+    display:block;
+    width:0;
+    height:0;
+    visibility:hidden;
+}
+#header{
+    width: 100%;
+    position: fixed;
+    left:0;
+    top:0;
+    background:#fff;
+    z-index: 999999999999999999;
+    border-bottom: 1px solid #eeeeee;
+    opacity: 0.8;
+}
+.headBox{
+    width: 108.81em;
+    height:auto;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.headLogo{
+    float: left;
+}
+.headLogo a{
+    display: block;
+}
+.headNav{
+    float: right;
+    height: auto;
+
+}
+.headNav a{
+    color: black;
+    display: block;
+}
+.headNav a:hover{
+    color:red;
+    transform: translateY(-70px);
+    transition: 1s;
+    border-bottom: 1px solid red;
+}
+.headNav ul{
+    width: auto;
+
+}
+.headNav ul li{
+    float: left;
+    height:2.87em;
+    margin-left: 2.93em;
+    line-height: 4.62em;
+}
+.headIcon{
+    line-height: 4.62em;
+    float:right;
+}
+.headIcon a{
+    color: #e21919;
+    font-size:0.875em ;
+
+}
+.headIcon a.yong{
+    margin-left: 3.125em;
+}
+/*header结束*/
+
+/*banner开始*/
+#banner{
+    margin-top: 5em;
+    width: 100%;
+    height: 35em;
+    overflow: hidden;
+    position: relative;
+}
+.video-container {
+    position: relative;
+    padding-top: 1.875em;
+    height: 40em;
+    overflow: hidden;
+}
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.bannericon{
+    position:absolute;
+    bottom: 0;
+    left:40%;
+    cursor: pointer;
+}
+.bc{
+    height:40px;
+    width:40px;
+    background:#808080;
+    float:left;
+    text-align:center;
+    line-height:40px;
+    border-radius:100%;
+    margin-left:10px;
+}
+.bg{background:red;}
+
+/*content开始*/
+
+#content{
+    width: 100%;
+    background: gainsboro;
+}
+.contentAbout h1{
+    font-weight: normal;
+    text-align: center;
+    padding-top: 3em;
+}
+.contentAbout h3{
+    font-weight: normal;
+    text-align: center;
+}
+.contentService{
+    background: url("../img/bg1.jpg") no-repeat black;
+    background-size: cover;
+    width:1920px;
+    height:500px;
+    color:white;
+    font-weight: normal;
+}
+.contentBox{
+    width: 1700px;
+    height: 300px;
+    margin:  0 auto;
+    margin-bottom: 5em;
+}
+.contentBox1Serive h1{
+    font-weight: normal;
+    padding-top: 20px;
+    font-size: 2.5em;
+}
+.contentBox1Serive2 h2{
+    font-weight: normal;
+    padding-top: 20px;
+}
+.contentBox1{
+    width: 14%;
+    float: left;
+    border-right: 1px solid #eeeeee;
+}
+.contentBox1text{
+    padding-top: 30px;
+    font-size: 1.4em;
+    padding-bottom: 10px;
+    float: left;
+}
+.contentBoxtext h1{
+    text-align: center;
+
+}
+.contentBoxtext P{
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+}
+.contentBoxtext h2{
+    font-weight: normal;
+
+    text-align: center;
+}
+.contentBox2{
+    width: 85%;
+  float: left;
+}
+.contentBoxtext{
+    width: 18%;
+    float: left;
+    margin-left: 1em;
+    border-right: 1px solid #eeeeee;
+}
+.contentBoxtext ul li{
+    padding-bottom: 0.5em;
+}
+.contentMore{
+   margin-top: 2em;
+    width: 10em;
+    height:3em ;
+    background: -webkit-linear-gradient(left,#eeeeee,black);
+    text-align: center;
+    line-height: 3em;
+    margin: 0 auto;
+    border-radius: 10em;
+
+}
+.contentMore a{
+    color: white;
+    display: block;
+    border-radius: 10em;
+    width: 10em;
+    height:3em ;
+    border-right: 1px solid white;
+    font-size: 1em;
+}
+.contentMore a:hover{
+    background: yellow;
+    color: black;
+}
+.contentCase{
+    padding-bottom: 4em;
+}
+.contentCasetext{
+    text-align: center;
+    padding-top: 2em;
+    font-size: 2em;
+}
+.contentCasetext p:last-child{
+    color:blue;
+}
+.contentCasetext p:first-child{
+    font-size: 1.5em;
+}
+.contentCaseimg{
+    padding-top: 3em;
+    width: 100%;
+    margin: 0 auto;
+    height: 50em;
+}
+.contentCaseimg ul li{
+    float: left;
+    overflow: hidden;
+    margin-right: 4em;
+    margin-bottom: 2em;
+    width: 29%;
+    height: 100%;
+    z-index: 11111;
+    position: relative;
+}
+.contentCaseimg ul li:first-child{
+    margin-left: 3.4em;
+}
+.contentCaseimg ul li img:hover{
+    transform: scale(1.1);
+    transition:all 3s;
+}
+.line{
+    width: 100%;
+    height: 0px;
+    background: dimgrey;
+    transition: all 1s;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+    text-align: center;
+}
+.contentCaseimg ul li:hover .line{
+   height: 359px;
+    line-height:359px ;
+    font-size: 4em;
+    color: white;
+}
+.contentCaseimgMore{
+    background: white;
+    line-height: 3em;
+    margin: 0 auto;
+    border-radius: 10em;
+    text-align: center;
+}
+.contentCaseimgMore a{
+    color: white;
+    display: block;
+    border-radius: 10em;
+    width: 10em;
+    height:3em ;
+    border-right: 1px solid white;
+    background: -webkit-linear-gradient(left,gray,royalblue);
+    font-size: 1em;
+    margin: 0 auto;
+}
+.contentCaseimgMore a:hover{
+    color: white;
+    background: -webkit-linear-gradient(left,blue,royalblue);
+}
+.contentSoution{
+    text-align: center;
+}
+.contentSoution h2{
+  margin-top: 0.5em;
+    color:blue;
+}
+.solutionList{
+    width: 80%;
+    margin: 0 auto;
+    background: url("../img/solutions_bg.jpg") no-repeat;
+    height:55em;
+    background-size: cover;
+    position: relative;
+}
+.solutionList ul li img{
+    height: 159.34px;
+    width: 100%;
+    margin-bottom: 0.5em;
+}
+.solutionList ul li{
+    width: 18%;
+    margin-left: 5em;
+    margin-top: 2em;
+    border: 1px solid silver;
+    float: left;
+    border-radius: 2em;
+    overflow: hidden;
+}
+.solutionList li:hover{
+    background: black;
+    color: white;
+}
+.solutionList li img:hover{
+    transform: scale(1.1);
+    transition: all 2s;
+}
+.solutionList li:hover .solutionText{
+    color: white;
+    transition: all 2s
+}
+.solutionText{
+    color: gray;
+}
+.solitionMore{
+    line-height: 3em;
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 10em;
+    position: absolute;
+    bottom: 2em;
+    left:0;
+}
+.solitionMore a{
+    color: white;
+    display: block;
+    border-radius: 10em;
+    width: 10em;
+    height:3em ;
+    border-right: 1px solid white;
+    background: blue;
+    font-size: 1em;
+    margin: 0 auto;
+}
+.solitionMore a:hover{
+    background: burlywood;
+    color:white;
+}
+.contentCustomer{
+    width: 100%;
+    height:35em;
+    border: 1px solid darkgrey;
+    margin-top: 4em;
+}
+.contentCustomerleft{
+    width: 16%;
+    height: 60%;
+    padding-top: 2em;
+    margin-top: 2em;
+    margin-left: 2em;
+    text-align: center;
+    background:gainsboro;
+    border: 1px solid darkgrey;float: left;
+}
+.contentCustomerleft h1{
+    font-size: 1.9em;
+    padding-bottom: 0.5em;
+}
+.contentCustomerleft p{
+    font-size: 1.5em;
+    color: blue;
+}
+.contentCustomerleft1{
+    width: 100%;
+    height: 4em;
+    text-align: center;
+    background: olivedrab;
+    margin-top: 3em;
+    line-height: 4em;
+    font-size: 1.2em;
+    cursor:pointer;
+}
+.contentCustomerright{
+    width: 80%;
+    float: right;
+}
+.contentCustomerlist{
+    float: left;
+    border: 1px solid red;
+    margin-right: 3em;
+    margin-top: 1.7em;
+}
+.contentCustomerlist img{
+    width:20em ;
+}
+.contentCustomerlist:hover{
+    transform: rotate3d(0,1,0,360deg);
+    transition: all 2s;
+
+}
+.contentCustomerright2{
+    width: 80%;
+    height: 60%;
+    float: right;
+    margin-top: 2em;
+    display: none;
+}
+.contentCustomervs{
+    width: 20%;
+    height:393px;
+    border:1px solid red;
+    float: left;
+    margin-right:4.6em;
+}
+.contentCustomervsimg{
+    background: white;
+    text-align: center;
+    height: 50%;
+    line-height: 300px
+}
+.contentCustomervstxt{
+    margin-top: 0.8em;
+    line-height: 1.5em;
+    text-align: center;
+    padding: 0 1em 0 1em;
+}
+
+/*content结束*/
+
+/*news开始*/
+
+#news{
+    width: 100%;
+    margin-top: 1em;
+}
+.newsTitle{
+    width: 100%;
+    text-align: center;
+    padding-top: 2em;
+}
+.newsTitle h1{
+    font-size: 3em;
+}
+.newsTitle h2{
+    color: blue;
+    font-size: 2em;
+    margin-top: 0.5em;
+}
+.newsNav{
+    padding-top: 2em;
+    width: 60%;
+    height: 5em;
+    margin:0 auto;
+}
+.newsNav h1{
+    float: left;
+    width: 50%;
+    text-align: center;
+    background: olivedrab;
+    border-radius: 2em;
+    cursor:pointer;
+    display: block;
+}
+.newsNav h1:last-child{
+    float: right;
+}
+.newsList{
+    padding-top: 1em;
+    width: 60%;
+    margin:0 auto;
+
+}
+.newsList1{
+    padding-top: 1em;
+    width: 60%;
+    margin:0 auto;
+    display: none;
+}
+.newsLista{
+    width: 47%;
+    height:10em;
+    border: 1px solid #eeeeee;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    float: left;
+    margin-right:2em;
+    margin-top: 1em;
+}
+.newsDate{
+    width: 10em;
+    height: 10em;
+    background: cadetblue;
+    border-radius: 10em;
+    text-align: center;
+    float: left;
+}
+
+.newsDate b{
+    display: block;
+    font-size: 5em;
+}
+.newsTxt{
+    width: 65%;
+    float: right;
+    line-height: 1.8em;
+    color: lightskyblue;
+
+}
+.newsTxt h4{
+    color:burlywood;
+
+}
+.newsMore{
+    width:100%;
+    text-align: center;
+    margin-top: 3em;
+}
+.newsMore a{
+    display: block;
+    width: 10em;
+    height: 3em;
+    margin: 0 auto;
+    background: -webkit-linear-gradient(left,red,darkgray);
+    border-radius: 2em;
+    font-size: 1.5em;
+    line-height: 3em;
+    color: yellow;
+}
+
+/*footer开始*/
+
+#footer{
+    width: 100%;
+    margin-top: 5em;
+}
+.footerService{
+    width: 100%;
+    margin: 0 auto;
+    height: 10em;
+    background: #475761;
+}
+.footerService1{
+    width: 60%;
+    height: 10em;
+    text-align: center;
+    padding-top: 2em;
+    margin:0 auto;
+
+}
+.footIcon,.footIcon2,.footIcon3,.footIcon4{
+    width: 24%;
+    font-weight:700;
+    padding-top: 3em;
+    border: 1px solid #475761;
+
+    float: left;
+}
+.footIcon,.footIcon2,.footIcon3,.footIcon4 p{
+    color: white;
+    font-weight: lighter;
+}
+.footIcon{
+    background: url("../img/foot-icon01.png") no-repeat top center;
+}
+.footIcon2{
+    background: url("../img/foot-icon02.png") no-repeat top center;
+}
+.footIcon3{
+    background: url("../img/foot-icon03.png") no-repeat top center;
+}
+.footIcon4{
+    background: url("../img/foot-icon04.png") no-repeat top center;
+}
+.footerCon{
+    width: 60%;
+    height: 15em;
+    margin:0 auto;
+
+}
+.footerNum{
+    width: 45%;
+    border-right: 1px solid #eee;
+    margin-top: 2em;
+    float: left;
+    margin-right: 3em;
+}
+.footerNum ul li{
+    height: 2em;
+    line-height: 2em;
+    text-indent: 3em;
+    margin-bottom: 1em;
+    font-size: 1.1em;
+}
+.footerNum1{
+    background: url("../img/foot-icon06.png") no-repeat left center;
+}
+.footerNum2{
+    background: url("../img/foot-icon07.png") no-repeat left center;
+}
+.footerNum3{
+    background: url("../img/foot-icon08.png") no-repeat left center;
+}
+.footerNum4{
+    background: url("../img/foot-icon09.png") no-repeat left center;
+}
+.aboutLink{
+    width: 100%;
+    background:black;
+}
+.link{
+    width:60%;
+    margin: 0 auto;
+    height: 13em;
+}
+.linkTit{
+    width:4em;
+    color:white;
+    margin:1em 7em 0 0;
+    float: left;
+}
+
+.link a{
+    color:silver;
+    margin:1em 2em 0 0;
+    display: block;
+    width: 9em;
+    height: 30px;float: left;
+    text-align: left;
+}
+.copyRight{
+    width:60%;
+    border-top: 1px solid #e8e8e8;
+    color: #999;
+    padding: 1.3em 0;
+    margin:2em auto;
+}
+.copyRights{
+    width: 60%;
+    float: left;
+    text-align: center;
+}
+.copyRight .h2{
+    font-size: 1.5em;
+    color:#bbb;
+    font-weight: 700;
+}
+.copyImg{
+    float: left;
+    margin-right: 6em;
+}
+
+/*
+copyright结束*/
+
+/*bar开始*/
+#bar{
+    position: fixed;
+    width: 5em;
+    top:25%;
+    left:0;
+}
+.barList{
+    width: 100%;
+    height: 5em;
+    background: black;
+    border-bottom: 1px solid white;
+    margin-bottom: 0.1em;
+}
+.barList a{
+    display: block;
+    background: url("../img/bar-icon01.png") no-repeat center 0.5em;
+    width: 5em;
+    height: 5em;
+    color:white;
+    text-align: center;
+}
+.barList2 a{
+    background: url("../img/bar-icon02.png") no-repeat center 0.5em;
+}
+.barList3 a{
+    background: url("../img/bar-icon03.png") no-repeat center 0.5em;
+}
+.barList4 a{
+    background: url("../img/bar-icon05.png") no-repeat center 0.5em;
+}
+.barList5 a{
+    background: url("../img/bar-icon06.png") no-repeat center;
+}
+
+
+

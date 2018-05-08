@@ -1,0 +1,418 @@
+*{
+    margin:0;
+    padding: 0;
+}
+html{
+    font-size:100%;
+}
+a{
+    text-decoration: none;
+}
+html{font-size:100%;}
+body{
+    font-size:1em;
+    font-family: "微软雅黑";
+}
+.response-img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+ul{
+    list-style: none;
+}
+.fd:after{
+    clear:both;
+    content:'';
+    display:block;
+    width:0;
+    height:0;
+    visibility:hidden;
+}
+#header{
+    width: 100%;
+    position: fixed;
+    left:0;
+    top:0;
+    background:#fff;
+    z-index: 999999999999999999;
+    border-bottom: 1px solid #eeeeee;
+    opacity: 0.8;
+}
+.headBox{
+    width: 108.81em;
+    height:auto;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.headLogo{
+    float: left;
+}
+.headLogo a{
+    display: block;
+}
+.headNav{
+    float: right;
+    height: auto;
+
+}
+.headNav a{
+    color: black;
+    display: block;
+}
+.headNav a:hover{
+    color:red;
+    transform: translateY(-70px);
+    transition: 1s;
+    border-bottom: 1px solid red;
+}
+.headNav ul{
+    width: auto;
+
+}
+.headNav ul li{
+    float: left;
+    height:2.87em;
+    margin-left: 2.93em;
+    line-height: 4.62em;
+}
+.headIcon{
+    line-height: 4.62em;
+    float:right;
+}
+.headIcon a{
+    color: #e21919;
+    font-size:0.875em ;
+
+}
+.headIcon a.yong{
+    margin-left: 3.125em;
+}
+/*
+head结束*/
+
+/*bannner开始*/
+#banner{
+    background: url("../img/service.png") no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 32.5em;
+    margin-top: 5em;
+}
+/*banner结束*/
+
+/*content开始*/
+#content{
+    width: 100%;
+    margin-top: 2em;
+    padding-bottom: 2em;
+}
+.contentTitle{
+    border-bottom: 1px solid lavender;
+    height: 3em;
+}
+.contentTitle span{
+    display:block;
+    width: 60%;
+    margin: 0 auto;
+
+}
+.contentTitle span a{
+    color:black;
+}
+.contentIcon{
+    text-align: center;
+    margin:2em 0 2em 0;
+    color:#010101;
+    font-size: 1.5em;
+}
+.contentIcon1{
+    font-size: 2em;
+    font-weight: normal;
+    color: #999999;
+}
+.contentT{
+    width: 100%;
+    height:50em;
+    background: url("../img/bg30.jpg") no-repeat;
+    background-size: contain;
+    margin-top: 1.8em;
+}
+.business-p{
+    text-align: center;
+    font-weight: normal;
+    line-height: 1.5em;
+    color: #475761;
+}
+.contentTx{
+    background: url("../img/bg38.png") no-repeat bottom left;
+    width:70%;
+    height: 20em;
+    margin:0 auto;
+    padding-top: 10em;
+}
+.contentTx span{
+    display:block;
+    font-size: 4em;
+    color:#ff6c00;
+    line-height: 1;
+    padding-left:0.5em;
+    width: 50%;
+}
+.contentTline{
+    height:0.3em;
+    width:15em;
+    background:burlywood;
+    margin-top: 1em;
+    margin-left: 2em;
+}
+.contentTxt{
+    width: 50%;
+    font-size: 1.5em;
+    margin-left: 2em;
+    margin-top: 1em;
+    font-weight: normal;
+    color:#ff6c00;
+    float: left;
+    line-height: 1.7em;
+}
+.contentTImg{
+    float: right;
+}
+.contentTx1{
+    background: url("../img/bg37.png") no-repeat bottom right;
+    width:70%;
+    height: 20em;
+    margin:0 auto;
+    padding-top: 7em;
+    position: relative;
+}
+.contentTx1 span{
+    display:block;
+    font-size: 4em;
+    color:#ff6c00;
+    line-height: 1;
+    width: 50%;
+    float: right;
+    text-align: right;
+    margin-right: 0.5em;
+    margin-top: 0.5em;
+}
+.contentTline1{
+    height:0.3em;
+    width:15em;
+    background:burlywood;
+    margin-top: 10em;
+    margin-left: 2em;
+    float: right;
+    position: absolute;
+    top:13%;
+    right: 2%;
+}
+.contentTxt1{
+    width: 50%;
+    font-size: 1.5em;
+    margin-left: 2em;
+    margin-top: 1em;
+    font-weight: normal;
+    color:#ff6c00;
+    line-height: 1.7em;
+    float: right;
+
+}
+.contentTxt11{
+    width: 60%;
+    float: right;
+}
+.contentTImg1{
+    margin-top: 7em;
+}
+.contentT2{
+    width: 100%;
+    height:50em;
+    background: url("../img/bg32.jpg") no-repeat;
+    background-size: contain;
+    margin-top: 1.8em;
+}
+.contentT3{
+    width: 100%;
+    height:50em;
+    background: url("../img/bg31.jpg") no-repeat;
+    background-size: contain;
+    margin-top: 1.8em;
+}
+/*
+content结束*/
+
+#footer{
+    width: 100%;
+    margin-top: 5em;
+}
+.footerService{
+    width: 100%;
+    margin: 0 auto;
+    height: 10em;
+    background: #475761;
+}
+.footerService1{
+    width: 60%;
+    height: 10em;
+    text-align: center;
+    padding-top: 2em;
+    margin:0 auto;
+
+}
+.footIcon,.footIcon2,.footIcon3,.footIcon4{
+    width: 24%;
+    font-weight:700;
+    padding-top: 3em;
+    border: 1px solid #475761;
+
+    float: left;
+}
+.footIcon,.footIcon2,.footIcon3,.footIcon4 p{
+    color: white;
+    font-weight: lighter;
+}
+.footIcon{
+    background: url("../img/foot-icon01.png") no-repeat top center;
+}
+.footIcon2{
+    background: url("../img/foot-icon02.png") no-repeat top center;
+}
+.footIcon3{
+    background: url("../img/foot-icon03.png") no-repeat top center;
+}
+.footIcon4{
+    background: url("../img/foot-icon04.png") no-repeat top center;
+}
+.footerCon{
+    width: 60%;
+    height: 15em;
+    margin:0 auto;
+
+}
+.footerNum{
+    width: 45%;
+    border-right: 1px solid #eee;
+    margin-top: 2em;
+    float: left;
+    margin-right: 3em;
+}
+.footerNum ul li{
+    height: 2em;
+    line-height: 2em;
+    text-indent: 3em;
+    margin-bottom: 1em;
+    font-size: 1.1em;
+}
+.footerNum1{
+    background: url("../img/foot-icon06.png") no-repeat left center;
+}
+.footerNum2{
+    background: url("../img/foot-icon07.png") no-repeat left center;
+}
+.footerNum3{
+    background: url("../img/foot-icon08.png") no-repeat left center;
+}
+.footerNum4{
+    background: url("../img/foot-icon09.png") no-repeat left center;
+}
+.aboutLink{
+    width: 100%;
+    background:black;
+}
+.link{
+    width:60%;
+    margin: 0 auto;
+    height: 13em;
+}
+.linkTit{
+    width:4em;
+    color:white;
+    margin:1em 7em 0 0;
+    float: left;
+}
+
+.link a{
+    color:silver;
+    margin:1em 2em 0 0;
+    display: block;
+    width: 9em;
+    height: 30px;float: left;
+    text-align: left;
+}
+.copyRight{
+    width:60%;
+    border-top: 1px solid #e8e8e8;
+    color: #999;
+    padding: 1.3em 0;
+    margin:2em auto;
+}
+.copyRights{
+    width: 60%;
+    float: left;
+    text-align: center;
+}
+.copyRight .h2{
+    font-size: 1.5em;
+    color:#bbb;
+    font-weight: 700;
+}
+.copyImg{
+    float: left;
+    margin-right: 6em;
+}
+.top{
+    position: fixed;
+    bottom: 20%;
+    right: 0;
+    background: #010101;
+    width: 4em;
+    height: 4em;  line-height: 2em;
+}
+.top a{
+    display: block;
+    background: url("../img/bar-icon06.png") no-repeat;
+    background-size: contain;
+    width: 2em;
+    height: 2em;
+    margin:1em auto;
+
+}
+#bar{
+    position: fixed;
+    width: 5em;
+    top:25%;
+    left:0;
+}
+.barList{
+    width: 100%;
+    height: 5em;
+    background: black;
+    border-bottom: 1px solid white;
+    margin-bottom: 0.1em;
+}
+.barList a{
+    display: block;
+    background: url("../img/bar-icon01.png") no-repeat center 0.5em;
+    width: 5em;
+    height: 5em;
+    color:white;
+    text-align: center;
+}
+.barList2 a{
+    background: url("../img/bar-icon02.png") no-repeat center 0.5em;
+}
+.barList3 a{
+    background: url("../img/bar-icon03.png") no-repeat center 0.5em;
+}
+.barList4 a{
+    background: url("../img/bar-icon05.png") no-repeat center 0.5em;
+}
+.barList5 a{
+    background: url("../img/bar-icon06.png") no-repeat center;
+}
+
+
