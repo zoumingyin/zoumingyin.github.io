@@ -1,0 +1,375 @@
+*{
+    margin:0;
+    padding: 0;
+}
+html{
+    font-size:100%;
+}
+a{
+    text-decoration: none;
+}
+html{font-size:100%;}
+body{
+    font-size:1em;
+    font-family: "微软雅黑";
+}
+.response-img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+ul{
+    list-style: none;
+}
+.fd:after{
+    clear:both;
+    content:'';
+    display:block;
+    width:0;
+    height:0;
+    visibility:hidden;
+}
+#header{
+    width: 100%;
+    position: fixed;
+    left:0;
+    top:0;
+    background:#fff;
+    z-index: 999999999999999999;
+    border-bottom: 1px solid #eeeeee;
+    opacity: 0.8;
+}
+.headBox{
+    width: 108.81em;
+    height:auto;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.headLogo{
+    float: left;
+}
+.headLogo a{
+    display: block;
+}
+.headNav{
+    float: right;
+    height: auto;
+
+}
+.headNav a{
+    color: black;
+    display: block;
+}
+.headNav a:hover{
+    color:red;
+    transform: translateY(-70px);
+    transition: 1s;
+    border-bottom: 1px solid red;
+}
+.headNav ul{
+    width: auto;
+
+}
+.headNav ul li{
+    float: left;
+    height:2.87em;
+    margin-left: 2.93em;
+    line-height: 4.62em;
+}
+.headIcon{
+    line-height: 4.62em;
+    float:right;
+}
+.headIcon a{
+    color: #e21919;
+    font-size:0.875em ;
+
+}
+.headIcon a.yong{
+    margin-left: 3.125em;
+}
+/*
+head结束*/
+
+/*bannner开始*/
+#banner{
+    background: url("../img/new_bg.jpg") no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 22em;
+    margin-top: 5em;
+}
+/*banner结束*/
+
+/*content部开始*/
+
+#content{
+    width: 100%;
+    margin-top: 2em;
+    padding-bottom: 2em;
+}
+.contentTitle{
+    border-bottom: 1px solid lavender;
+    height: 3em;
+}
+.contentTitle span{
+    display:block;
+    width: 60%;
+    margin: 0 auto;
+
+}
+.contentTitle span a{
+    color:black;
+}
+.contentTitle span a:active{
+    color:red;
+}
+.contentIcon{
+    text-align: center;
+    margin:2em 0 2em 0;
+    color:#010101;
+    font-size: 1.5em;
+}
+.contentIcon1{
+    font-size: 2em;
+    font-weight: normal;
+    color: #999999;
+}
+.contentList ul{
+    width: 60%;
+    margin:0 auto;
+}
+.contentList ul li{
+    height: 20em;
+    border-bottom: 1px solid silver;
+}
+.contentList ul li{
+   margin-bottom: 2em;
+}
+.contentLeft{
+    width: 40%;
+    float: left;
+
+}
+
+.top h2{
+    float: left;
+    font-weight: normal;
+    color: darkgreen;
+}
+.top span{
+    display: block;
+    float: left;
+    padding: 0 0 0.5em 0;
+    width: 2em;
+    height: 1em;
+    text-align: center;
+    margin-left: 0.5em;
+    line-height: 1.5em;
+}
+.mid span{
+    display: block;
+    float: left;
+    line-height: 2.5em;
+    color: #e21919;
+
+}
+.span1{
+    font-size: 1.2em;
+    border: 1px solid #ff6c00;
+    padding:0 0.6em;
+
+    margin:0.4em 0.6em 0 0;
+}
+.fr1{
+    background: red;
+}
+.fr2{
+    background: orange;
+   transform:translateY(-0.5em);
+}
+.top p{
+    line-height: 2em;
+    color: #475761;
+    text-indent: 2em;
+}
+.mid{
+   height:3em;
+}
+.contentFoot{
+    float:left;
+    width:5em;
+    height:3em;
+    background:url("../img/priceshow.gif") 0 0 no-repeat;
+    line-height:2em;
+    text-align:center;
+    font-size:20px;
+    color:#fff;
+    text-align: center;
+    cursor: pointer;
+}
+/*footer开始*/
+
+#footer{
+    width: 100%;
+    margin-top: 10em;
+}
+.footerService{
+    width: 100%;
+    margin: 0 auto;
+    height: 10em;
+    background: #475761;
+}
+.footerService1{
+    width: 60%;
+    height: 10em;
+    text-align: center;
+    padding-top: 2em;
+    margin:0 auto;
+
+}
+.footIcon,.footIcon2,.footIcon3,.footIcon4{
+    width: 24%;
+    font-weight:700;
+    padding-top: 3em;
+    border: 1px solid #475761;
+
+    float: left;
+}
+.footIcon,.footIcon2,.footIcon3,.footIcon4 p{
+    color: white;
+    font-weight: lighter;
+}
+.footIcon{
+    background: url("../img/foot-icon01.png") no-repeat top center;
+}
+.footIcon2{
+    background: url("../img/foot-icon02.png") no-repeat top center;
+}
+.footIcon3{
+    background: url("../img/foot-icon03.png") no-repeat top center;
+}
+.footIcon4{
+    background: url("../img/foot-icon04.png") no-repeat top center;
+}
+.footerCon{
+    width: 60%;
+    height: 15em;
+    margin:0 auto;
+
+}
+.footerNum{
+    width: 45%;
+    border-right: 1px solid #eee;
+    margin-top: 2em;
+    float: left;
+    margin-right: 3em;
+}
+.footerNum ul li{
+    height: 2em;
+    line-height: 2em;
+    text-indent: 3em;
+    margin-bottom: 1em;
+    font-size: 1.1em;
+}
+.footerNum1{
+    background: url("../img/foot-icon06.png") no-repeat left center;
+}
+.footerNum2{
+    background: url("../img/foot-icon07.png") no-repeat left center;
+}
+.footerNum3{
+    background: url("../img/foot-icon08.png") no-repeat left center;
+}
+.footerNum4{
+    background: url("../img/foot-icon09.png") no-repeat left center;
+}
+.aboutLink{
+    width: 100%;
+    background:black;
+}
+.link{
+    width:60%;
+    margin: 0 auto;
+    height: 13em;
+}
+.linkTit{
+    width:4em;
+    color:white;
+    margin:1em 7em 0 0;
+    float: left;
+}
+
+.link a{
+    color:silver;
+    margin:1em 2em 0 0;
+    display: block;
+    width: 9em;
+    height: 30px;float: left;
+    text-align: left;
+}
+.copyRight{
+    width:60%;
+    border-top: 1px solid #e8e8e8;
+    color: #999;
+    padding: 1.3em 0;
+    margin:2em auto;
+}
+.copyRights{
+    width: 60%;
+    float: left;
+    text-align: center;
+}
+.copyRight .h2{
+    font-size: 1.5em;
+    color:#bbb;
+    font-weight: 700;
+}
+.copyImg{
+    float: left;
+    margin-right: 6em;
+}
+
+/*
+copyright结束*/
+
+
+
+
+
+
+/*bar开始*/
+#bar{
+    position: fixed;
+    width: 5em;
+    top:25%;
+    left:0;
+}
+.barList{
+    width: 100%;
+    height: 5em;
+    background: black;
+    border-bottom: 1px solid white;
+    margin-bottom: 0.1em;
+}
+.barList a{
+    display: block;
+    background: url("../img/bar-icon01.png") no-repeat center 0.5em;
+    width: 5em;
+    height: 5em;
+    color:white;
+    text-align: center;
+}
+.barList2 a{
+    background: url("../img/bar-icon02.png") no-repeat center 0.5em;
+}
+.barList3 a{
+    background: url("../img/bar-icon03.png") no-repeat center 0.5em;
+}
+.barList4 a{
+    background: url("../img/bar-icon05.png") no-repeat center 0.5em;
+}
+.barList5 a{
+    background: url("../img/bar-icon06.png") no-repeat center;
+}
