@@ -1,0 +1,13 @@
+﻿.no-transition{
+    left: -5000px;
+    top: 80px;
+}
+.slide-ie-1{
+    background: url(../images/banner-ie8-1.png) no-repeat right center;
+}
+.slide-ie-2{
+    background: url(../images/banner-ie8-2.png) no-repeat right center;
+}
+.slide-ie-3{
+	background: url(../images/banner-ie8-3.jpg) no-repeat right center;
+}

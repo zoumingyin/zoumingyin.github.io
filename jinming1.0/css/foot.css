@@ -1,0 +1,122 @@
+ul{
+    list-style: none;
+}
+#foot{
+    width: 100%;
+    margin-top: 10em;
+}
+.footerService{
+    width: 100%;
+    margin: 0 auto;
+    height: 10em;
+    background: #475761;
+}
+.footerService1{
+    width: 60%;
+    height: 10em;
+    text-align: center;
+    padding-top: 2em;
+    margin:0 auto;
+
+}
+.footIcon,.footIcon2,.footIcon3,.footIcon4{
+    width: 24%;
+    font-weight:700;
+    padding-top: 3em;
+    border: 1px solid #475761;
+
+    float: left;
+}
+.footIcon,.footIcon2,.footIcon3,.footIcon4 p{
+    color: white;
+    font-weight: lighter;
+}
+.footIcon{
+    background: url("../images/foot-icon01.png") no-repeat top center;
+}
+.footIcon2{
+    background: url("../images/foot-icon02.png") no-repeat top center;
+}
+.footIcon3{
+    background: url("../images/foot-icon03.png") no-repeat top center;
+}
+.footIcon4{
+    background: url("../images/foot-icon04.png") no-repeat top center;
+}
+.footerCon{
+    width: 60%;
+    height: 15em;
+    margin:0 auto;
+
+}
+.footerNum{
+    width: 45%;
+    border-right: 1px solid #eee;
+    margin-top: 2em;
+    float: left;
+    margin-right: 3em;
+}
+.footerNum ul li{
+    height: 2em;
+    line-height: 2em;
+    text-indent: 3em;
+    margin-bottom: 1em;
+    font-size: 1.1em;
+}
+.footerNum1{
+    background: url("../images/foot-icon06.png") no-repeat left center;
+}
+.footerNum2{
+    background: url("../images/foot-icon07.png") no-repeat left center;
+}
+.footerNum3{
+    background: url("../images/foot-icon08.png") no-repeat left center;
+}
+.footerNum4{
+    background: url("../images/foot-icon09.png") no-repeat left center;
+}
+.aboutLink{
+    width: 100%;
+    background:black;
+}
+.link{
+    width:60%;
+    margin: 0 auto;
+    height: 13em;
+}
+.linkTit{
+    width:4em;
+    color:white;
+    margin:1em 7em 0 0;
+    float: left;
+}
+
+.link a{
+    color:silver;
+    margin:1em 2em 0 0;
+    display: block;
+    width: 9em;
+    height: 30px;float: left;
+    text-align: left;
+}
+.copyRight{
+    width:60%;
+    border-top: 1px solid #e8e8e8;
+    color: #999;
+    padding: 1.3em 0;
+    margin:2em auto;
+}
+.copyRights{
+    width: 60%;
+    float: left;
+    text-align: center;
+}
+.copyRight .h2{
+    font-size: 1.5em;
+    color:#bbb;
+    font-weight: 700;
+}
+.copyImg{
+    float: left;
+    margin-right: 6em;
+}
